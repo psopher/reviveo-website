@@ -249,6 +249,15 @@ h1, h2, h3 {
 .screenshots {
   background: var(--color-bg-soft);
 }
+.screenshot-row-title {
+  margin: 32px 4px 12px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+.screenshot-row-title:first-of-type {
+  margin-top: 8px;
+}
 .screenshot-row {
   display: flex;
   gap: 20px;
